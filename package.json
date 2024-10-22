@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --port 5179",
     "build": "tsc -b && vite build",
+    "build.ghpages": "tsc -b && vite build --config vite.ghpages.config.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },
